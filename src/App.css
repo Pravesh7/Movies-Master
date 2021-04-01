@@ -1,0 +1,127 @@
+/* Movie-Search */
+#movies img,
+#movie img {
+  width: 100%;
+}
+.brand-text {
+  font-size: 2rem;
+}
+#react-logo {
+  color: #00d8ff;
+
+}
+#imdb-logo {
+  color: #f5de50;
+}
+@media (min-width: 960px) {
+  #movies .col-md-3 .well {
+    height: 390px;
+  }
+
+  #movies .col-md-3 img {
+    height: 240px;
+  }
+}
+.ftr{
+  margin-bottom: 0px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+#search{
+  box-shadow: 10px 10px 3px grey;
+  height: 50px;
+}
+
+/* Login- Register */
+
+body{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container1 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login,
+.register {
+  width: 400px;
+}
+
+.login h2,
+.register h2 {
+  font-size: 45px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.login a {
+  text-align: center;
+}
+
+input[type='text'] {
+  background-color: #e6e6e6;
+  color: #827ffe;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: none;
+  width: 85%;
+  padding: 20px 30px;
+  box-shadow: 10px 10px 3px grey;
+}
+
+input[type='password'] {
+  background-color: #e6e6e6;
+  padding: 20px 30px;
+  color: #827ffe;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: none;
+  width: 85%;
+  box-shadow: 10px 10px 3px grey;
+}
+input[type='date'] {
+  background-color: #e6e6e6;
+  padding: 20px 30px;
+  color: #827ffe;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: none;
+  width: 85%;
+  box-shadow: 10px 10px 3px grey;
+}
+input[type='email'] {
+  background-color: #e6e6e6;
+  padding: 20px 30px;
+  color: #827ffe;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: none;
+  width: 85%;
+  box-shadow: 10px 10px 3px grey;
+}
+
+
+input[type='submit'] {
+  padding: 15px 0px;
+  background-color: #827ffe;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: none;
+  width: 100%;
+  box-shadow: 10px 10px 3px grey;
+}
+
+.check {
+  font-size: 16px;
+}
